@@ -28,6 +28,4 @@ int main() {
     
     TicTacToe arr[2]= {Cr, Ci};
 
-
-    std::cout << (char)Ci;
 }
