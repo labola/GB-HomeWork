@@ -27,7 +27,4 @@ int main() {
     Ci = Circle;
     
     TicTacToe arr[2]= {Cr, Ci};
-
-
-    std::cout << (char)Ci;
 }
