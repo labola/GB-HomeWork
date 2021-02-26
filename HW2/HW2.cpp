@@ -4,11 +4,25 @@ enum TicTacToe {Circle = 'X', Cross = 'O'};
 
 //Структура с значением в ячейке, нахождение на доске  
 struct TicTacToeBrd {
-    TictacToe Vl;
+    TicTacToe Vl;
     int x;
     int y;
 
 };
+
+struct STRVL{
+    bool toint      :1;
+    bool todouble   :1;
+    bool tochar     :1;
+    
+       union Un{
+                    int i;
+                    double dbl;
+                    char chr;
+                }un;
+}strvl;
+
+
 
 int main() {
     // Константа обозначающая нормальное давление
@@ -25,6 +39,7 @@ int main() {
     enum TicTacToe Cr, Ci;
     Cr = Cross;
     Ci = Circle;
-    
+      
     TicTacToe arr[2]= {Cr, Ci};
+       
 }
