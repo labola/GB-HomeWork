@@ -1,0 +1,195 @@
+The system is: Windows - 10.0.19042 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/Program Files/LLVM/bin/clang.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is Clang, found in "C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/3.20.0-rc2/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/Program Files/LLVM/bin/clang++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is Clang, found in "C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/3.20.0-rc2/CompilerIdCXX/a.exe"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/User/gcc/bin/make.exe -f Makefile cmTC_c7337/fast && C:/Users/User/gcc/bin/make.exe  -f CMakeFiles/cmTC_c7337.dir/build.make CMakeFiles/cmTC_c7337.dir/build
+make.exe[1]: Entering directory 'C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7337.dir/CMakeCCompilerABI.c.obj
+"C:/Program Files/LLVM/bin/clang.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_c7337.dir/CMakeCCompilerABI.c.obj -MF CMakeFiles/cmTC_c7337.dir/CMakeCCompilerABI.c.obj.d -o CMakeFiles/cmTC_c7337.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCCompilerABI.c"
+Linking C executable cmTC_c7337.exe
+"C:/Program Files/LLVM/bin/clang.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_c7337.dir/objects1.rsp -o cmTC_c7337.exe -Xlinker /implib:cmTC_c7337.lib -Xlinker /pdb:C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp/cmTC_c7337.pdb -Xlinker /version:0.0  
+make.exe[1]: Leaving directory 'C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/User/gcc/bin/make.exe -f Makefile cmTC_d7e40/fast && C:/Users/User/gcc/bin/make.exe  -f CMakeFiles/cmTC_d7e40.dir/build.make CMakeFiles/cmTC_d7e40.dir/build
+make.exe[1]: Entering directory 'C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7e40.dir/CMakeCXXCompilerABI.cpp.obj
+"C:/Program Files/LLVM/bin/clang++.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -MD -MT CMakeFiles/cmTC_d7e40.dir/CMakeCXXCompilerABI.cpp.obj -MF CMakeFiles/cmTC_d7e40.dir/CMakeCXXCompilerABI.cpp.obj.d -o CMakeFiles/cmTC_d7e40.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.20/Modules/CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_d7e40.exe
+"C:/Program Files/LLVM/bin/clang++.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_d7e40.dir/objects1.rsp -o cmTC_d7e40.exe -Xlinker /implib:cmTC_d7e40.lib -Xlinker /pdb:C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp/cmTC_d7e40.pdb -Xlinker /version:0.0  
+make.exe[1]: Leaving directory 'C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp'
+
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/User/gcc/bin/make.exe -f Makefile cmTC_47ce5/fast && C:/Users/User/gcc/bin/make.exe  -f CMakeFiles/cmTC_47ce5.dir/build.make CMakeFiles/cmTC_47ce5.dir/build
+make.exe[1]: Entering directory 'C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_47ce5.dir/feature_tests.cxx.obj
+"C:/Program Files/LLVM/bin/clang++.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_47ce5.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_47ce5.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_47ce5.dir/feature_tests.cxx.obj -c C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_47ce5.exe
+"C:/Program Files/LLVM/bin/clang++.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_47ce5.dir/objects1.rsp -o cmTC_47ce5.exe -Xlinker /implib:cmTC_47ce5.lib -Xlinker /pdb:C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp/cmTC_47ce5.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_47ce5.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Users/User/gcc/bin/make.exe -f Makefile cmTC_2485d/fast && C:/Users/User/gcc/bin/make.exe  -f CMakeFiles/cmTC_2485d.dir/build.make CMakeFiles/cmTC_2485d.dir/build
+make.exe[1]: Entering directory 'C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2485d.dir/feature_tests.cxx.obj
+"C:/Program Files/LLVM/bin/clang++.exe"   -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd   -std=c++14 -MD -MT CMakeFiles/cmTC_2485d.dir/feature_tests.cxx.obj -MF CMakeFiles/cmTC_2485d.dir/feature_tests.cxx.obj.d -o CMakeFiles/cmTC_2485d.dir/feature_tests.cxx.obj -c C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2485d.exe
+"C:/Program Files/LLVM/bin/clang++.exe" -fuse-ld=lld-link -nostartfiles -nostdlib -g -Xclang -gcodeview -O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -Xlinker /subsystem:console @CMakeFiles/cmTC_2485d.dir/objects1.rsp -o cmTC_2485d.exe -Xlinker /implib:cmTC_2485d.lib -Xlinker /pdb:C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp/cmTC_2485d.pdb -Xlinker /version:0.0  @CMakeFiles/cmTC_2485d.dir/linklibs.rsp
+make.exe[1]: Leaving directory 'C:/Users/User/Documents/GB/GB-HomeWork/HW3/build/CMakeFiles/CMakeTmp'
+
+
+
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_variable_templates
