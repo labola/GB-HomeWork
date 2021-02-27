@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "C:/Users/User/Documents/GB/GB-HomeWork/HW3/external.cpp" "CMakeFiles/main.dir/external.cpp.obj" "gcc" "CMakeFiles/main.dir/external.cpp.obj.d"
   "C:/Users/User/Documents/GB/GB-HomeWork/HW3/main.cpp" "CMakeFiles/main.dir/main.cpp.obj" "gcc" "CMakeFiles/main.dir/main.cpp.obj.d"
   )
 

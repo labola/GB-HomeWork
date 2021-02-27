@@ -129,6 +129,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+external.obj: external.cpp.obj
+.PHONY : external.obj
+
+# target to build an object file
+external.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/external.cpp.obj
+.PHONY : external.cpp.obj
+
+external.i: external.cpp.i
+.PHONY : external.i
+
+# target to preprocess a source file
+external.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/external.cpp.i
+.PHONY : external.cpp.i
+
+external.s: external.cpp.s
+.PHONY : external.s
+
+# target to generate assembly for a file
+external.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/external.cpp.s
+.PHONY : external.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... main"
+	@echo "... external.obj"
+	@echo "... external.i"
+	@echo "... external.s"
 	@echo "... main.obj"
 	@echo "... main.i"
 	@echo "... main.s"
