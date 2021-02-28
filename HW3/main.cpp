@@ -5,6 +5,12 @@ extern int a,b,c,d;
 
 int main() {
  
-    float value = (static_cast<float>(a) * (static_cast<float>(b) + (static_cast<float>(c) / static_cast<float>(d))));
-    std::cout << value; 
+    int x = 50;
+    std::cout << ((static_cast<float>(a) * (static_cast<float>(b) + (static_cast<float>(c) / static_cast<float>(d))))) << '\n';
+
+    int y = x-21;
+    std::cout << y << '\n';
+    std::cout << ((x-21) > 21 ? y *= y : y);
+
+    
 }
