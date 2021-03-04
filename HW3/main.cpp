@@ -35,5 +35,5 @@ int main() {
 
     int* ptr = array2[0][0];
     ptr = &array2[1][1][1];    
-    std::cout << *(ptr);
+    
 }
