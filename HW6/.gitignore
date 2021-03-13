@@ -1,0 +1,9 @@
+*.txt
+.
+*.pdb
+MakeFile
+CMakeFiles
+build\.cmake
+*.json
+.vscode
+.cmake
