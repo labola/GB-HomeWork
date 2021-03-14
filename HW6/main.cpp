@@ -18,7 +18,7 @@ int main(){
 void CreateFiles()
 {
     ofstream ex1_file1;
-    ex1_file1.open("./ex1_file1.txt");
+    ex1_file1.open("ex1_file1.txt");
     if(!ex1_file1)
     {
         cout << "Couldn`t be open the file!";
@@ -34,7 +34,7 @@ void CreateFiles()
     ex1_file1.close();
 
     ofstream ex1_file2;
-    ex1_file2.open("./ex1_file2.txt");
+    ex1_file2.open("ex1_file2.txt");
     if(!ex1_file2)
     {
         cout << "Couldn`t be open the file!";
@@ -54,9 +54,9 @@ void CreateFiles()
 void MergeToFile()
 {
     ifstream ex2_file1;
-    ex2_file1.open("./ex1_file1.txt");
+    ex2_file1.open("ex1_file1.txt");
     ifstream ex2_file2;
-    ex2_file2.open("./ex1_file2.txt");
+    ex2_file2.open("ex1_file2.txt");
     string* str1 = new  string[100]; 
     string* str2 = new  string[100];
 
@@ -66,11 +66,11 @@ void MergeToFile()
     ex2_file2.close();
 
     ofstream ex2_mergefile;
-    ex2_mergefile.open("./ex2_mergefile.txt");
+    ex2_mergefile.open("ex2_mergefile.txt");
     ex2_mergefile << *str1 << *str2;
     ex2_mergefile.close();
-
+    
     delete [] str1;
     delete [] str2;
-    
+    cout << "Files merged\n";
 }
