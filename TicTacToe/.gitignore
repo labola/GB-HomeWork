@@ -7,3 +7,4 @@ CMakeFiles
 *.json
 .vscode
 .cmake
+cmake_install.cmake
